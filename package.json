@@ -1,14 +1,14 @@
 {
-  "name": "node-sflow",
+  "name": "sflow_node",
   "version": "0.0.3",
-  "description": "Sflow module to help implementing Node.JS sflow collector",
-  "main": "sflow.js",
+  "description": "Sflow module to help implementing Node.JS sflow",
+  "main": "deserializer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/delian/node-sflow.git"
+    "url": "https://github.com/Cynamics/sflow_node.git"
   },
   "keywords": [
     "sflow",
@@ -22,12 +22,5 @@
   "bugs": {
     "url": "https://github.com/delian/node-sflow/issues"
   },
-  "dependencies": {
-    "debug": "^1.0.2"
-  },
-  "homepage": "https://github.com/delian/node-sflow",
-  "devDependencies": {
-    "chai": "^1.9.1",
-    "mocha": "^1.20.1"
-  }
+  "homepage": "https://github.com/delian/node-sflow"
 }
