@@ -1,6 +1,6 @@
 {
   "name": "sflow_node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sflow module to help implementing Node.JS sflow",
   "main": "deserializer.js",
   "scripts": {

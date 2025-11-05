@@ -17,11 +17,10 @@ var Deserializer = function () {
                         }
                     });
                 } else {
-                    return console.error('Invalid Packet');
+                    return Promise.reject(new Error("Invalid Packet"));
                 }
             default:
-                console.error("Version unsupported!")
-                break;
+                return Promise.reject(new Error("Version unsupported! " + version));
         }
     };
     return this;
